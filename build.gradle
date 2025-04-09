@@ -30,7 +30,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
     // Influx
-    implementation 'com.influxdb:influxdb-client-java:6.9.0'
+    implementation 'com.influxdb:influxdb-client-java:7.2.0'
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
