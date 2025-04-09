@@ -1,0 +1,19 @@
+influxdb:
+  url: ${INFLUXDB_URL}
+  token: ${INFLUXDB_TOKEN}
+  org: ${INFLUXDB_ORG}
+  bucket: ${INFLUXDB_BUCKET}
+
+curse-forge:
+  api-key: ${CURSEFORGE_API_KEY}
+  scheduler:
+    fixed-rate-minutes: 1
+
+  # Example projects, replace with your own.
+  projects:
+    PeaversAlwaysSquare: 1235674
+    PeaversDynamicStats: 1230220
+    PeaversSpellExporter: 1232019
+    PeaversTalents: 1184820
+    PeaversTalentsData: 1198986
+    PeaversUI: 1046194
